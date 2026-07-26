@@ -206,7 +206,7 @@ export const PROJECTS: Project[] = [
       { label: "Setup time", value: "10 min" },
     ],
     skills: ["Excel modeling", "Data validation", "Error prevention", "Template design"],
-    screenshots: [{ src: "/images/reconciliation.jpg", caption: "Trial balance tab with live balance check" }],
+    screenshots: [{ src: "/images/excel-template.jpg", caption: "Trial balance tab with live balance check" }],
     downloads: [{ label: "Excel bookkeeping template (XLSX)", file: "/files/excel-bookkeeping-template.xlsx" }],
   },
   {
@@ -235,7 +235,7 @@ export const PROJECTS: Project[] = [
       { label: "Closing entries", value: "Complete" },
     ],
     skills: ["Double-entry fundamentals", "T-account analysis", "Worksheet preparation", "Closing process"],
-    screenshots: [{ src: "/images/financials.jpg", caption: "Completed 10-column worksheet" }],
+    screenshots: [{ src: "/images/manual-bookkeeping.jpg", caption: "Completed 10-column worksheet" }],
   },
 ];
 
