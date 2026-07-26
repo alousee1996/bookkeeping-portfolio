@@ -363,7 +363,7 @@ export function Contact() {
                   Thank you — I&apos;ll reply within one business
                   day. If it&apos;s urgent, book a slot in the scheduling section above.
                 </p>
-                <Button variant="secondary" onClick={reset}>
+                <Button variant="secondary" onClick={() => window.location.reload()}>
                   Send another message
                 </Button>
               </div>
