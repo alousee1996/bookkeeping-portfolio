@@ -399,7 +399,7 @@ export const FAQS = [
   },
   {
     q: "Do you work with US businesses from the Philippines?",
-    a: "Yes. I work a part-time schedule with reliable overlap into Eastern and Central time, and everything is handled through secure cloud tools — QuickBooks Online, encrypted document sharing, and scheduled video check-ins. The time zone difference often works in your favor: work submitted at the end of your day is frequently done by your next morning.",
+    a: "I have not yet worked directly with US businesses, but I am actively building my career in US bookkeeping. I earned QuickBooks Online ProAdvisor Level 1 and Level 2 certifications, along with an Intuit Bookkeeper certification, and completed hands-on training in US bookkeeping and QuickBooks Online.",
   },
   {
     q: "How do you keep my financial data secure?",
