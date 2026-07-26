@@ -203,6 +203,7 @@ const RESUME = [
       "Completed QuickBooks Online ProAdvisor Level 1 and Level 2 certifications.",
       "Completed a 12-month accounting cycle case study across manual, Excel, and QBO workflows.",
     ],
+   },
 ];
 
 export function Resume() {
