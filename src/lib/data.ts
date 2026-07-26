@@ -188,7 +188,7 @@ export const PROJECTS: Project[] = [
       "A self-checking workbook for pre-QuickBooks businesses: journal, ledger, trial balance, and statements linked end to end.",
     tools: ["Microsoft Excel", "Google Sheets", "Data validation & XLOOKUP"],
     outcome: "Built-in balance checks catch out-of-balance entries the moment they're typed.",
-    image: "/images/reconciliation.jpg",
+    image: "/images/excel-template.jpg",
     overview:
       "A five-tab workbook for very small businesses not yet ready for accounting software, designed so a non-accountant can keep clean records.",
     objective: "Reduce data-entry errors to near zero using validation, formulas, and visible balance checks.",
@@ -217,7 +217,7 @@ export const PROJECTS: Project[] = [
       "Handwritten journals, T-accounts, and worksheets proving the fundamentals behind every button click in accounting software.",
     tools: ["Columnar paper", "T-accounts", "10-column worksheet"],
     outcome: "Full cycle completed by hand, including closing entries and post-closing trial balance.",
-    image: "/images/financials.jpg",
+    image: "/images//manual-bookkeeping.jpg",
     overview:
       "A deliberate return to fundamentals: recording, posting, and closing an accounting period entirely by hand to keep the underlying logic sharp.",
     objective: "Prove conceptual understanding independent of software automation.",
