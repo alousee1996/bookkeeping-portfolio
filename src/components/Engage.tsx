@@ -301,8 +301,8 @@ export function Contact() {
           <Reveal delay={180}>
             <ul className="mt-8 space-y-3">
               {[
-                { icon: Mail, label: "Email", value: "andrea.casuncad.books@gmail.com", href: "mailto:andrea.casuncad.books@gmail.com" },
-                { icon: LinkedInIcon, label: "LinkedIn", value: "linkedin.com/in/andrea-casuncad", href: "https://www.linkedin.com/" },
+                { icon: Mail, label: "Email", value: "vaalousee@gmail.com", href: "mailto:vaalousee@gmail.com" },
+                { icon: LinkedInIcon, label: "LinkedIn", value: "linkedin.com/in/andrea-lou-casuncad/", href: "https://www.linkedin.com/" },
                 { icon: MapPin, label: "Location", value: "Philippines · serving US clients", href: undefined },
               ].map((c) => {
                 const Inner = (
