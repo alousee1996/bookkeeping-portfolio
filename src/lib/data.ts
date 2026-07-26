@@ -13,7 +13,7 @@ export const RESUME_FILE = "/files/andrea-casuncad-resume.pdf";
  * "Copy link". Both the embedded widget and the "open in new tab"
  * fallback update automatically.
  */
-export const CALENDLY_URL = "https://calendly.com/acme-demo/30min";
+export const CALENDLY_URL = "https://calendly.com/vaalousee/30min";
 
 export type Project = {
   id: string;
