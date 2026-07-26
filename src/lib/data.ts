@@ -56,12 +56,12 @@ export const PROJECTS: Project[] = [
     image: "/images/financials.jpg",
     featured: true,
     overview:
-      "A twelve-month simulated engagement for “Northline Services LLC,” a small US service business with two bank accounts, one credit card, payroll accruals, and roughly 780 transactions. The project was completed three ways — manual ledgers, an Excel workbook, and QuickBooks Online — to prove the same accounting logic across every tool a small business might already use.",
+      "A twelve-month simulated engagement for “BrightPath Consulting & Traiding,” a small US service business with two bank accounts, one credit card, and roughly 150 transactions. The project was completed with QuickBooks Online — to prove the same accounting logic across every tool a small business might already use.",
     objective:
       "Demonstrate command of the complete accounting cycle: from Chart of Accounts design through adjusting entries, closing entries, and a presentation-ready financial statement package.",
     process: [
-      "Designed a Chart of Accounts mapped to the client's revenue streams and IRS Schedule C categories.",
-      "Recorded 780+ transactions with consistent naming, class tracking, and source-document references.",
+      "Designed a Chart of Accounts related to the client's business industry type.",
+      "Recorded 150+ transactions with consistent naming, class tracking, and source-document references.",
       "Posted journal entries to the general ledger and maintained subsidiary AR/AP ledgers.",
       "Prepared an unadjusted trial balance and investigated every variance line by line.",
       "Booked adjusting entries for depreciation, prepaid insurance, accrued wages, and unearned revenue.",
@@ -70,7 +70,7 @@ export const PROJECTS: Project[] = [
     ],
     results: [
       { label: "Months reconciled", value: "12/12" },
-      { label: "Transactions recorded", value: "780+" },
+      { label: "Transactions recorded", value: "150+" },
       { label: "Unreconciled variance", value: "$0.00" },
       { label: "Statements delivered", value: "3 + memo" },
     ],
