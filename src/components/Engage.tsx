@@ -270,16 +270,11 @@ export function Contact() {
       first?.focus();
       return;
     }
-    try {
-      await fetch("https://formspree.io/f/mdaqpqnj", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify(form),
-      });
-    } catch {
-      // If the send fails for any reason, visitors still see a friendly
-      // confirmation — your email is listed right beside the form anyway.
-    }
+    fetch("https://formspree.io/f/mdaqpqnj", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify(form),
+    }).catch(() => {});
     setSent(true);
   };
   const field =
