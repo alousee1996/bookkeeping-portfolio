@@ -147,7 +147,7 @@ export const PROJECTS: Project[] = [
       { label: "Usage guide", value: "1 page" },
     ],
     skills: ["Chart of Accounts design", "Tax-line mapping", "QBO setup", "Process documentation"],
-    screenshots: [{ src: "/images/qbo-dashboard.jpg", caption: "Restructured account list in QBO" }],
+    screenshots: [{ src: "/images/chart-of-accounts.jpg", caption: "Restructured account list in QBO" }],
   },
   {
     id: "qbo-reports",
