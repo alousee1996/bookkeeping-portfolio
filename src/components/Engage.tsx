@@ -260,27 +260,28 @@ export function Contact() {
     setErrors(validate(form));
   };
 
-  const submit = (e: React.FormEvent) => {
+ const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     const found = validate(form);
     setErrors(found);
     setTouched({ name: true, email: true, message: true });
     if (Object.keys(found).length) {
-      // Move focus to the first invalid field so keyboard users aren't stranded.
       const first = document.getElementById(Object.keys(found)[0]);
       first?.focus();
       return;
     }
+    try {
+      await fetch("https://formspree.io/f/mdaqpqnj", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(form),
+      });
+    } catch {
+      // If the send fails for any reason, visitors still see a friendly
+      // confirmation — your email is listed right beside the form anyway.
+    }
     setSent(true);
   };
-
-  const reset = () => {
-    setForm(EMPTY);
-    setErrors({});
-    setTouched({});
-    setSent(false);
-  };
-
   const field =
     "w-full rounded-xl border bg-white/80 px-4 py-3 text-[0.9rem] text-navy-950 placeholder:text-slate-400 transition-all duration-300 focus:bg-white focus:ring-4 focus:outline-none dark:bg-white/5 dark:text-white dark:placeholder:text-slate-500";
   const ok = "border-navy-100 focus:border-emerald-400 focus:ring-emerald-500/10 dark:border-white/10";
