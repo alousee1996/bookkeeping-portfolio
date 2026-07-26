@@ -70,7 +70,7 @@ export function About() {
                   className="absolute -inset-2 -z-10 rounded-[1.6rem] bg-gradient-to-br from-emerald-200/50 to-navy-200/50 blur-xl dark:from-emerald-800/25 dark:to-navy-800/30"
                 />
                 <img
-                  src="/images/headshot.jpg"
+                  src="/images/andrea-lou-casuncad.jpg"
                   alt="Andrea Lou Casuncad"
                   width={320}
                   height={320}
