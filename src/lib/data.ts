@@ -395,7 +395,7 @@ export const TESTIMONIALS = [
 export const FAQS = [
   {
     q: "You're currently an HR Assistant — why hire you for bookkeeping?",
-    a: "Because the skills transfer directly and the credentials are real. My HR role is built on payroll detail, confidential records, and documentation that has to survive an audit. On top of that I hold the Intuit Certified Bookkeeping Professional credential and both QuickBooks Online ProAdvisor levels, and I've completed a full 12-month accounting cycle case study you can review in the portfolio above. You're not hiring a promise — you're hiring documented, verifiable work.",
+    a: "Because the skills transfer directly and the credentials are real. My HR role is built on data entry level, confidential records, and documentation that has to survive an audit. On top of that I hold the Intuit Certified Bookkeeping Professional credential and both QuickBooks Online ProAdvisor levels, and I've completed a full 12-month accounting cycle case study you can review in the portfolio above. You're not hiring a promise — you're hiring documented, verifiable work.",
   },
   {
     q: "Do you work with US businesses from the Philippines?",
@@ -403,11 +403,11 @@ export const FAQS = [
   },
   {
     q: "How do you keep my financial data secure?",
-    a: "Access is granted through QuickBooks Online's accountant-user permissions rather than shared passwords, documents move through encrypted storage only, devices are password- and disk-encrypted, and I sign a confidentiality agreement before any engagement begins. Handling sensitive employee records daily has made these habits non-negotiable.",
+    a: "Access is granted through QuickBooks Online's accountant-user permissions rather than shared passwords, if permitted, documents move through encrypted storage only, devices are password- and disk-encrypted, and I sign a confidentiality agreement before any engagement begins. Handling sensitive employee records daily has made these habits non-negotiable.",
   },
   {
     q: "My books are months behind. Is that a problem?",
-    a: "It's one of the most common situations I handle, and it's fixable. Cleanup starts with an assessment of what exists, followed by reconstruction, reconciliation, and a written exception log so you can see exactly what was corrected and why. Most three-month cleanups are delivered within one to two weeks.",
+    a: "It's one of the most common situations I handle, and it's fixable. Cleanup starts with an assessment of what exists, followed by reconstruction, reconciliation, and a written exception log so you can see exactly what was corrected and why.",
   },
   {
     q: "What does onboarding look like?",
@@ -415,7 +415,7 @@ export const FAQS = [
   },
   {
     q: "What kind of engagements are you available for?",
-    a: "Part-time only. I hold a full-time Human Resource Assistant role, so I take on part-time bookkeeping work — typically 10 to 20 hours per week — through remote part-time positions, ongoing monthly retainers, and fixed-scope projects. I'm not available for full-time employment. Keeping my client list deliberately small is what lets every account get the same level of review, and I'll tell you honestly if your volume needs more hours than I can commit to.",
+    a: "Part-time only. I hold a full-time Human Resource Assistant role, so I take on part-time bookkeeping work — typically 10 to 20 hours per week — through remote part-time positions, ongoing monthly retainers, and fixed-scope projects. I'm not available for full-time employment yet. Keeping my client list deliberately small is what lets every account get the same level of review, and I'll tell you honestly if your volume needs more hours than I can commit to.",
   },
 ];
 
