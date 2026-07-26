@@ -185,17 +185,17 @@ export function Certifications() {
 
 const RESUME = [
   {
-    period: "2023 — Present",
+    period: "2021 — Present",
     role: "Human Resource Assistant (Full-Time)",
-    org: "Private Sector",
+    org: "Government Sector",
     points: [
-      "Maintain confidential employee records and payroll documentation with a zero-error standard.",
+      "Maintain confidential employee records and handle performance evaluation and management of employees.",
       "Coordinate compliance filings and audit-ready documentation across departments.",
-      "Reconcile timekeeping data against payroll registers each cycle.",
+      "Assist in developming HR plans, policies, and programs in compliance with the Civil Service Commission.",
     ],
   },
   {
-    period: "2024 — 2025",
+    period: "June - July 2026",
     role: "Bookkeeping Training & Certification",
     org: "Intuit · Professional Programs",
     points: [
@@ -203,17 +203,6 @@ const RESUME = [
       "Completed QuickBooks Online ProAdvisor Level 1 and Level 2 certifications.",
       "Completed a 12-month accounting cycle case study across manual, Excel, and QBO workflows.",
     ],
-  },
-  {
-    period: "Ongoing · Part-Time",
-    role: "Part-Time Bookkeeping Support",
-    org: "US Small Businesses",
-    points: [
-      "Cleanup and catch-up engagements, monthly reconciliation, and reporting packs.",
-      "QuickBooks Online setup, Chart of Accounts design, and Excel template builds.",
-      "Capacity intentionally limited to 10–20 hours per week to protect accuracy.",
-    ],
-  },
 ];
 
 export function Resume() {
