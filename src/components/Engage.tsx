@@ -360,7 +360,7 @@ export function Contact() {
                 </span>
                 <h3 className="text-xl font-bold text-navy-950 dark:text-white">Message received</h3>
                 <p className="max-w-sm text-[0.9rem] leading-relaxed text-slate-600 dark:text-slate-400">
-                  Thank you, {(form.name || "").trim().split(" ")[0] || "there"} — I&apos;ll reply within one business
+                  Thank you — I&apos;ll reply within one business
                   day. If it&apos;s urgent, book a slot in the scheduling section above.
                 </p>
                 <Button variant="secondary" onClick={reset}>
