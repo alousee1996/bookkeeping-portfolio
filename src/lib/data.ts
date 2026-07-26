@@ -129,7 +129,7 @@ export const PROJECTS: Project[] = [
       "A clean, tax-ready account structure built for a service business — no duplicate accounts, no vague 'Miscellaneous' buckets.",
     tools: ["QuickBooks Online", "Excel mapping sheet"],
     outcome: "Account list reduced from 96 to 54 with clear parent/sub-account hierarchy.",
-    image: "/images/qbo-dashboard.jpg",
+    image: "/images/chart-of-accounts.jpg",
     overview:
       "A rebuild of a bloated default Chart of Accounts into a lean structure that maps directly to the business's tax return and to the owner's real decision-making questions.",
     objective: "Make reports readable at a glance and make tax preparation a copy-and-paste exercise.",
