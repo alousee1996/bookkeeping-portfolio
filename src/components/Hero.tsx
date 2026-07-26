@@ -21,7 +21,7 @@ const BADGES = [
 ];
 
 const STATS = [
-  { value: 780, suffix: "+", label: "Transactions recorded" },
+  { value: 150, suffix: "+", label: "Transactions recorded" },
   { value: 12, suffix: "/12", label: "Months reconciled" },
   { value: 3, suffix: "", label: "Certifications earned" },
   { value: 100, suffix: "%", label: "Accounts tied out" },
