@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrea Lou Casuncad — Intuit Certified Bookkeeper & QuickBooks Online ProAdvisor</title>
+    <meta
+      name="description"
+      content="Helping small businesses keep their books accurate and organized. Intuit Certified Bookkeeper and QuickBooks Online ProAdvisor (Level 1 & 2) offering part-time cleanup, reconciliation, and monthly bookkeeping support for US small businesses."
+    />
+    <meta name="author" content="Andrea Lou Casuncad" />
+    <meta name="theme-color" content="#0b1b33" />
+    <meta
+      name="keywords"
+      content="bookkeeper, QuickBooks Online ProAdvisor, Intuit Certified Bookkeeper, bank reconciliation, catch-up bookkeeping, small business bookkeeping, virtual bookkeeper Philippines"
+    />
+    <link rel="canonical" href="https://andreacasuncad.bookkeeping/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Andrea Lou Casuncad — Intuit Certified Bookkeeper & QuickBooks Online ProAdvisor" />
+    <meta
+      property="og:description"
+      content="Accurate books, organized records, reliable support for US small businesses. Part-time engagements only. View case studies, certifications, and sample work."
+    />
+    <meta property="og:image" content="/images/qbo-dashboard.jpg" />
+    <meta property="og:url" content="https://andreacasuncad.bookkeeping/" />
+    <meta property="og:site_name" content="Andrea Lou Casuncad Bookkeeping" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Andrea Lou Casuncad — Intuit Certified Bookkeeper" />
+    <meta
+      name="twitter:description"
+      content="Helping small businesses keep their books accurate and organized. QuickBooks Online ProAdvisor Level 1 & 2."
+    />
+    <meta name="twitter:image" content="/images/qbo-dashboard.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Andrea Lou Casuncad",
+        "jobTitle": "Bookkeeper & QuickBooks Online ProAdvisor",
+        "address": { "@type": "PostalAddress", "addressCountry": "Philippines" },
+        "knowsAbout": ["Bookkeeping", "QuickBooks Online", "Bank Reconciliation", "Financial Statements"]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Applies the saved theme before first paint to prevent a light/dark flash. -->
+    <script>
+      (function () {
+        try {
+          var s = localStorage.getItem("alc-theme");
+          var d = s ? s === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
+          if (d) document.documentElement.classList.add("dark");
+          document.documentElement.style.colorScheme = d ? "dark" : "light";
+        } catch (e) {}
+      })();
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
